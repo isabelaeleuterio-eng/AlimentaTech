@@ -1,0 +1,28 @@
+ALIMENTATECH — VERSÃO ATUALIZADA PARA VERCEL
+================================================
+
+ESTRUTURA
+- index.html: página principal do site
+- assets/: fotografias e outros recursos
+- assets/videos/projeto-final.mp4: trecho do vídeo final, enquadrado para mostrar apenas o equipamento
+
+ALTERAÇÕES NESTA VERSÃO
+- Foto do protótipo final na página inicial e na galeria.
+- Vídeos anteriores removidos; somente o vídeo enviado do projeto final permanece.
+- O trecho do vídeo foi selecionado e enquadrado para evitar que pessoas apareçam no enquadramento.
+- Equipe corrigida para os três participantes: Tiago, Pedro e Alisson.
+- Nova seção explicando o desenvolvimento passo a passo e a lógica do código Arduino recebido.
+- Textos e legendas revisados para não afirmar resultados de testes que ainda não foram confirmados.
+
+COMO PUBLICAR
+1. Extraia este ZIP para uma pasta no computador.
+2. Abra a pasta extraída e confirme que index.html e a pasta assets estão no mesmo nível.
+3. Na Vercel, abra https://vercel.com/new e use a opção de enviar/arrastar o projeto.
+4. Envie a pasta inteira (não apenas index.html). Não mova a pasta assets para fora.
+5. Antes de publicar, confira se a lista mostra index.html e assets/; se a Vercel não reconhecer a estrutura, pare e envie uma captura da tela.
+6. Após a implantação, abra https://alimentatech.vercel.app/ e confira imagens, vídeo, navegação e celular.
+
+IMPORTANTE
+- Esta pasta não altera a Vercel automaticamente; é preciso publicar a nova implantação.
+- Mantenha a implantação atual ativa até verificar a nova.
+- A descrição do código segue os valores presentes no sketch recebido. A quantidade de ração liberada e a repetibilidade do mecanismo devem ser confirmadas em testes reais.
