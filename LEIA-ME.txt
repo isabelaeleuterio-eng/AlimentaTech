@@ -26,3 +26,5 @@ IMPORTANTE
 - Esta pasta não altera a Vercel automaticamente; é preciso publicar a nova implantação.
 - Mantenha a implantação atual ativa até verificar a nova.
 - A descrição do código segue os valores presentes no sketch recebido. A quantidade de ração liberada e a repetibilidade do mecanismo devem ser confirmadas em testes reais.
+
+Atualiza��o do site em 11/10/2026.
