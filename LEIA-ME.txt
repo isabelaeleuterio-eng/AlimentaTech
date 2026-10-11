@@ -1,30 +1,24 @@
-ALIMENTATECH — VERSÃO ATUALIZADA PARA VERCEL
-================================================
+ALIMENTATECH — GRUPO 11
+Pacote atualizado para GitHub e Vercel
 
-ESTRUTURA
-- index.html: página principal do site
-- assets/: fotografias e outros recursos
-- assets/videos/projeto-final.mp4: trecho do vídeo final, enquadrado para mostrar apenas o equipamento
+CONTEÚDO
+- index.html: página principal revisada.
+- assets/: fotos técnicas e vídeo do protótipo.
 
-ALTERAÇÕES NESTA VERSÃO
-- Foto do protótipo final na página inicial e na galeria.
-- Vídeos anteriores removidos; somente o vídeo enviado do projeto final permanece.
-- O trecho do vídeo foi selecionado e enquadrado para evitar que pessoas apareçam no enquadramento.
-- Equipe corrigida para os três participantes: Tiago, Pedro e Alisson.
-- Nova seção explicando o desenvolvimento passo a passo e a lógica do código Arduino recebido.
-- Textos e legendas revisados para não afirmar resultados de testes que ainda não foram confirmados.
-
-COMO PUBLICAR
-1. Extraia este ZIP para uma pasta no computador.
-2. Abra a pasta extraída e confirme que index.html e a pasta assets estão no mesmo nível.
-3. Na Vercel, abra https://vercel.com/new e use a opção de enviar/arrastar o projeto.
-4. Envie a pasta inteira (não apenas index.html). Não mova a pasta assets para fora.
-5. Antes de publicar, confira se a lista mostra index.html e assets/; se a Vercel não reconhecer a estrutura, pare e envie uma captura da tela.
-6. Após a implantação, abra https://alimentatech.vercel.app/ e confira imagens, vídeo, navegação e celular.
+PUBLICAR PELO GITHUB (recomendado)
+1. Extraia este ZIP.
+2. Copie index.html, LEIA-ME.txt e a pasta assets para a pasta local que está conectada ao repositório AlimentaTech.
+3. Confirme que index.html e assets estão no nível principal da pasta.
+4. No terminal, dentro da pasta do projeto, execute:
+   git add index.html LEIA-ME.txt assets
+   git commit -m "Atualiza site AlimentaTech"
+   git push
+5. Se o repositório estiver conectado ao projeto correto na Vercel, o deploy será iniciado automaticamente.
+6. Aguarde o deploy terminar e abra o site publicado para conferir fotos, vídeo, navegação e versão para celular.
 
 IMPORTANTE
-- Esta pasta não altera a Vercel automaticamente; é preciso publicar a nova implantação.
-- Mantenha a implantação atual ativa até verificar a nova.
-- A descrição do código segue os valores presentes no sketch recebido. A quantidade de ração liberada e a repetibilidade do mecanismo devem ser confirmadas em testes reais.
-
-Atualiza��o do site em 11/10/2026.
+- Não apague a publicação anterior até confirmar que a nova versão está funcionando.
+- A página descreve o projeto como protótipo em desenvolvimento; não afirma que todos os testes foram concluídos.
+- A demonstração interativa no site é ilustrativa e não representa conexão ao vivo com o Arduino.
+- O sensor ultrassônico detecta proximidade, mas não identifica individualmente o animal.
+- Revise o enquadramento de novos vídeos antes de publicá-los para evitar expor pessoas sem necessidade.
