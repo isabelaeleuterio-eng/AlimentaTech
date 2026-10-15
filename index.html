@@ -446,6 +446,19 @@ footer p{color:#9db4c5;font-size:.9rem;margin-top:10px;max-width:340px}
 }
 @media print{header,.to-top,.progress-bar,.sim-buttons{display:none}section{padding:24px 0}}
 </style>
+
+<style id="alimentatech-saiba-mais-contrast-fix">
+/* Caixa “Saiba mais”: contraste alto e leitura confortável em todos os tamanhos. */
+#perguntas { background:#ffffff; color:#102b43; }
+#perguntas .section-head .kicker { color:#087f91 !important; opacity:1 !important; }
+#perguntas .section-head h2 { color:#102b43 !important; -webkit-text-fill-color:#102b43 !important; opacity:1 !important; }
+#perguntas .faq details { background:#ffffff !important; color:#102b43 !important; border:1px solid #d7e4ee !important; }
+#perguntas .faq summary { color:#102b43 !important; -webkit-text-fill-color:#102b43 !important; opacity:1 !important; font-weight:800; }
+#perguntas .faq details p { color:#405a70 !important; -webkit-text-fill-color:#405a70 !important; opacity:1 !important; }
+#perguntas .faq details[open] { border-color:#12cbd0 !important; box-shadow:0 8px 22px rgba(16,43,67,.08); }
+@media(max-width:600px){#perguntas .faq details{padding:16px;border-radius:14px}#perguntas .faq summary{line-height:1.45}}
+</style>
+
 </head>
 <body>
 <a class="skip" href="#conteudo">Pular para o conteúdo</a>
@@ -860,9 +873,9 @@ const safe = fn => { try { return fn(); } catch(e) { return null; } };
               Deixe '' para mostrar as iniciais.
    ====================================================== */
 const TEAM = [
-  { name:'Thiago Henrique Correa Dos Santos', comment:'', photo:'assets/thiago-henrique-correa-dos-santos.jpg' },
-  { name:'Alison', comment:'', photo:'' },
-  { name:'Pedro Henrique dos Anjos Dias', comment:'Aprendi a fazer circuitos e a fazer as peças funcionarem.', photo:'assets/pedro-henrique.jpg' }
+  { name:'Thiago Henrique Correa Dos Santos', comment:'Aprendi a trabalhar melhor com cola quente e a montar projetos mais estruturados.', photo:'assets/thiago-henrique-correa-dos-santos.jpg' },
+  { name:'Alison', comment:'Aprendi a escrever melhor os códigos e a montar os circuitos.', photo:'' },
+  { name:'Pedro Henrique dos Anjos Dias', comment:'Aprendi a escrever códigos melhores, trabalhar com fiação e soldar.', photo:'assets/pedro-henrique.jpg' }
 ];
 
 /* ---------- Menu mobile ---------- */

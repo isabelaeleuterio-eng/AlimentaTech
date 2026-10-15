@@ -1,24 +1,28 @@
-ALIMENTATECH — GRUPO 11
-Pacote atualizado para GitHub e Vercel
+AlimentaTech — pacote para GitHub/Vercel
 
-CONTEÚDO
-- index.html: página principal revisada.
-- assets/: fotos técnicas e vídeo do protótipo.
+Conteúdo:
+- index.html: site do AlimentaTech
+- assets/: imagens do projeto e fotos reais de montagem
+- assets/videos/projeto-final.mp4: vídeo final do projeto
+- assets/videos/montagem-1.mp4 e montagem-2.mp4: vídeos das etapas de construção
 
-PUBLICAR PELO GITHUB (recomendado)
-1. Extraia este ZIP.
-2. Copie index.html, LEIA-ME.txt e a pasta assets para a pasta local que está conectada ao repositório AlimentaTech.
-3. Confirme que index.html e assets estão no nível principal da pasta.
-4. No terminal, dentro da pasta do projeto, execute:
+Antes de publicar:
+1. Confira o site localmente abrindo index.html no navegador.
+2. Verifique se as fotos e vídeos aparecem corretamente.
+3. Se estiver tudo certo, copie os arquivos para a pasta do repositório conectado à Vercel.
+4. No terminal dessa pasta, execute:
    git add index.html LEIA-ME.txt assets
-   git commit -m "Atualiza site AlimentaTech"
+   git commit -m "Atualiza registros reais do AlimentaTech"
    git push
-5. Se o repositório estiver conectado ao projeto correto na Vercel, o deploy será iniciado automaticamente.
-6. Aguarde o deploy terminar e abra o site publicado para conferir fotos, vídeo, navegação e versão para celular.
 
-IMPORTANTE
-- Não apague a publicação anterior até confirmar que a nova versão está funcionando.
-- A página descreve o projeto como protótipo em desenvolvimento; não afirma que todos os testes foram concluídos.
-- A demonstração interativa no site é ilustrativa e não representa conexão ao vivo com o Arduino.
-- O sensor ultrassônico detecta proximidade, mas não identifica individualmente o animal.
-- Revise o enquadramento de novos vídeos antes de publicá-los para evitar expor pessoas sem necessidade.
+A publicação só acontece depois que o repositório for atualizado e a Vercel concluir o deploy.
+
+
+AJUSTES DESTA VERSAO PARA CONFERENCIA:
+- A secao Fotos e videos da construcao foi movida para o meio do site, antes da equipe e das perguntas frequentes.
+- Perguntas frequentes permanece como a ultima secao antes do rodape.
+- O link Protótipo real agora aponta para a secao de video final (videos-prototipo).
+- O botao Ver demonstracao permanece removido.
+
+
+Atualização: foto principal substituída por versão aprimorada; removidos os balões de identificação e a faixa sobre a imagem; enquadramento ajustado para preservar a foto inteira.
